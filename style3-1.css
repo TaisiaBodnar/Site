@@ -1,0 +1,13 @@
+﻿#x2{ 
+	text-align: center;
+	text-decoration-style: solid;
+	border-width: 7px;
+	font-size: 15pt; 
+	font-style: oblique;
+	color: white;
+	box-sizing: content-box;
+	height: 400px;
+	background-image: url("kosmos_05-e1473339013537.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+   }

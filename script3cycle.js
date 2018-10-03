@@ -15,7 +15,7 @@ function f1()
 	A=parseFloat($('tx1').value);
 	B=parseFloat($('tx2').value);
 	razn=A;
-	while( razn>B)
+	while( razn>=B)
 	{
 		razn=razn-B;
 	}			

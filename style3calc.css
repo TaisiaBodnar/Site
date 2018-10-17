@@ -1,0 +1,15 @@
+﻿#x2{ 
+	text-align: center;
+	text-decoration-style: solid;
+	border-width: 7px;
+	font-size: 15pt; 
+	font-style: oblique;
+	color: white;
+	width: 1530px;
+	height: 800px;
+	position: absolute;
+	background-image: url("gggg.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+   }

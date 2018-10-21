@@ -1,51 +1,22 @@
-﻿<!doctype html>
-<html>
-    <head>
-        <title>Сайт</title>
-        <meta charset="utf-8">
-	<link rel="stylesheet" href="site.css">
-    </head>
-    <body>
-	<div id=b3>
-		<h1>Лабораторна робота №4 МЕРЕЖІ. HTML - форми</h1>
-			<img src="Screenshot.png" ></img>
-	<form action="" >
-	<table>
-		<tr>
-			<td>ФИО</td>
-			<td>
-				<input type="text" name="tx1" placeholder="Фамилия Имя Отчество">
-			</td>
-		</tr>
-		<tr>
-			<td>Оклад</td>
-			<td>
-				<input type="number" name="tx2" step="10" min="0" max="10000">
-			</td>
-		</tr>
-		<tr>
-			<td>Основное ли место работы?</td>
-			<td>
-				<input type="checkbox" name"ch1"=> Да
-			</td>
-		</tr>
-		<tr>
-			<td>Отдел</td>
-			<td>
-				<input type="radio" name="departmant"> IT
-				<input type="radio" name="departmant"> Бухгалтерия
-				<input type="radio" name="departmant"> Отдел продаж
-			</td>
-		
-		</tr>
-		<tr>
-			<td> <input type="reset" value="reset"> </td>
-			<td>
-				<input type="submit" value="submit">
-			</td>
-		</tr>
-	</table>
-	</form>
-        </div>
-    </body>
-    </html>
+﻿<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Lab4.JavaScript</title>
+			<meta charset="UTF-8">
+			<link rel="stylesheet" href="style4.css">
+			<script src="script4.js">
+			</script>
+		</head>
+		<body >
+			<div id='x2'>
+				 <form action="Test">
+					<p><font size="5">ЗАДАНИЕ №1</font></p>
+					<p><font size="4">Написать функцию, которая проверяет, что в строке, переданной в качестве аргумента, передается дата в формате "дд.мм.гг". Если это так, то функция возвращает true, в противном случае - false.</font></p>
+					<p>In <input id="In" type="text" value=""></p>
+					<p>Result <input id="Result" type="text" value=""></p>
+					<p><input name="lab4" type="button" value="Enter" onclick="document.getElementById('Result').value=f(document.getElementById('In').value)"> </p>
+				</form>
+			</div>
+		</body>
+	</html>
+

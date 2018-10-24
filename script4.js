@@ -16,7 +16,7 @@ function f(x)
 		var mass = new Array(d);
 		mass = In.split('-');
 		In = mass.join('.');
-		if( isNaN(mass) )
+		if( isNaN(d) )
 			{
       		 return false;
    			}

@@ -12,9 +12,7 @@ return elements; }
 
 function f(x)
 	{
-		var d = Date.parse(x.replace( ".","-"));
-		return x.replace(/[.]/g,"-");
-	/*	
+		var d = Date.parse(x.replace( /[.]/g,"-"));	
 		if( isNaN(d) )
 			{
       		 return false;
@@ -23,5 +21,5 @@ function f(x)
     		{
    			 return true;
     		}
-		*/
+		
 	}

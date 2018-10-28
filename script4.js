@@ -14,7 +14,8 @@ function f(x)
 	{
 		
 		var d = Date.parse(x.replace(".","-"));
-		
+		return x.replace(".","-");
+	/*	
 		if( isNaN(d) )
 			{
       		 return false;
@@ -22,5 +23,6 @@ function f(x)
    		else
     		{
    			 return true;
-    		}		
+    		}
+		*/
 	}

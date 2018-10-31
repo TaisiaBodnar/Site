@@ -13,6 +13,7 @@ return elements; }
 function f(x)
 	{
 		var d = Date.parse(x.replace( /[.]/g,"-"));	
+		var mass = d.split('.');
 		if( isNaN(d) )
 			{
       		 return false;

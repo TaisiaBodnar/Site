@@ -1,4 +1,9 @@
-﻿#b1{
+body{
+	background-image: url("forest.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	}
+#b1{
 	position: absolute;
 	top: 0px;
 	left: 900px;
